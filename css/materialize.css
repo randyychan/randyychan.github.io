@@ -5377,9 +5377,9 @@ small {
   .card.medium {
     height: 400px; }
     .card.medium .card-image {
-      height: 250px; }
+      height: 330px; }
     .card.medium .card-content {
-      height: 150px; }
+      height: 70px; }
   .card.large {
     height: 500px; }
     .card.large .card-image {
@@ -5408,7 +5408,7 @@ small {
       margin: 0;
       color: inherit; }
     .card .card-content .card-title {
-      line-height: 48px; }
+      line-height: 30px; }
   .card .card-action {
     border-top: 1px solid rgba(160, 160, 160, 0.2);
     padding: 20px; }

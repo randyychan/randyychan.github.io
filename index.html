@@ -8,38 +8,40 @@
     <!-- CSS  -->
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-</head>
-<body>
-<div class="navbar-fixed">
-    <nav class="white" role="navigation">
-        <div class="container">
-            <a id="logo-container" href="#" class="brand-logo">Randy Chan</a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="mailto:randyychan@gmail.com">Contact Me</a></li>
-            </ul>
-        </div>
+
+    <div class="navbar-fixed">
+        <nav class="white" role="navigation">
+            <div class="container">
+                <a id="logo-container" href="#" class="brand-logo">Randy Chan</a>
+                <ul class="right hide-on-med-and-down table-of-contents">
+                    <li><a href="#index-banner">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#hackathon">Hackathons</a></li>
+                </ul>
+            </div>
 
             <ul id="nav-mobile" class="side-nav">
-                <li><a href="mailto:randyychan@gmail.com">Contact Me</a></li>
+                <li><a href="#index-banner">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#hackathon">Hackathons</a></li>
             </ul>
             <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-    </nav>
-</div>
+        </nav>
+    </div>
+
+</head>
+<body>
 
 
-<div id="index-banner" class="parallax-container">
+<div id="index-banner" class="parallax-container scrollspy">
     <div class="section no-pad-bot">
         <div class="container">
             <br><br>
 
-            <h1 class="header center teal-text text-lighten-2">Randy Chan</h1>
+            <h1 class="header center teal-text text-lighten-2">About Me</h1>
 
             <div class="row center">
                 <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-            </div>
-            <div class="row center">
-                <a href="http://materializecss.com/getting-started.html" id="download-button"
-                   class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
             </div>
             <br><br>
 
@@ -52,39 +54,44 @@
 <div class="container">
     <div class="section">
 
+        <h1 class="header center text-lighten-2">Projects</h1>
+        <br><br>
+
         <!--   Icon Section   -->
         <div class="row">
-            <div class="col s12 m4">
-                <div class="icon-block">
-                    <h2 class="center brown-text"><i class="mdi-image-flash-on"></i></h2>
-                    <h5 class="center">Speeds up development</h5>
+            <div class="col m6">
+                <div class="card medium">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="https://lh4.ggpht.com/i5gRnu6ezaU33ef6dJ715M0Rx2oBv4y4ce88QZkiP7UYB-UVY8bJHzq5-B9nAp78nM90=h900-rw">
+                    </div>
+                    <div class="card-content activator">
+                        <span class="card-title grey-text text-darken-4">Sift<i class="mdi-navigation-more-vert right"></i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Sift<i class="mdi-navigation-close right"></i></span>
+                        <p>Sift quickly searches your device to find what you’re looking for. Search your apps, contacts, texts, calendar invites, browsing history
+                            and music - all from one search bar. Activate the search bar with a quick swipe of your finger.</p>
+                        <p><a href="https://play.google.com/store/apps/details?id=com.qlabs.android.sift">Google Play</a></p>
 
-                    <p class="light">We did most of the heavy lifting for you to provide a default stylings that
-                        incorporate our custom components. Additionally, we refined animations and transitions to
-                        provide a smoother experience for developers.</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="col s12 m4">
-                <div class="icon-block">
-                    <h2 class="center brown-text"><i class="mdi-social-group"></i></h2>
-                    <h5 class="center">User Experience Focused</h5>
+            <div class="col m6">
+                <div class="card medium">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="https://lh4.ggpht.com/i5gRnu6ezaU33ef6dJ715M0Rx2oBv4y4ce88QZkiP7UYB-UVY8bJHzq5-B9nAp78nM90=h900-rw">
+                    </div>
+                    <div class="card-content activator">
+                        <span class="card-title grey-text text-darken-4">Sift<i class="mdi-navigation-more-vert right"></i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Sift<i class="mdi-navigation-close right"></i></span>
+                        <p>Sift quickly searches your device to find what you’re looking for. Search your apps, contacts, texts, calendar invites, browsing history
+                            and music - all from one search bar. Activate the search bar with a quick swipe of your finger.</p>
+                        <p><a href="https://play.google.com/store/apps/details?id=com.qlabs.android.sift">Google Play</a></p>
 
-                    <p class="light">By utilizing elements and principles of Material Design, we were able to create a
-                        framework that incorporates components and animations that provide more feedback to users.
-                        Additionally, a single underlying responsive system across all platforms allow for a more
-                        unified user experience.</p>
-                </div>
-            </div>
-
-            <div class="col s12 m4">
-                <div class="icon-block">
-                    <h2 class="center brown-text"><i class="mdi-action-settings"></i></h2>
-                    <h5 class="center">Easy to work with</h5>
-
-                    <p class="light">We have provided detailed documentation as well as specific code examples to help
-                        new users get started. We are also always open to feedback and can answer any questions a user
-                        may have about Materialize.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -93,11 +100,11 @@
 </div>
 
 
-<div class="parallax-container valign-wrapper">
+<div id="projects" class="parallax-container valign-wrapper scrollspy">
     <div class="section no-pad-bot">
         <div class="container">
             <div class="row center">
-                <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+                <h1 class="header center teal-text text-lighten-2">Projects</h1>
             </div>
         </div>
     </div>
@@ -125,16 +132,15 @@
     </div>
 </div>
 
-
-<div class="parallax-container valign-wrapper">
+<div id="hackathons" class="parallax-container valign-wrapper scrollspy">
     <div class="section no-pad-bot">
         <div class="container">
             <div class="row center">
-                <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+                <h1 class="header center teal-text text-lighten-2">Hackathons</h1>
             </div>
         </div>
     </div>
-    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
 </div>
 
 <footer class="page-footer teal">

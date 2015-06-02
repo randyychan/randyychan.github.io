@@ -3,6 +3,12 @@
 
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
+    $('.scrollspy').scrollSpy();
+
+  $('.button-collapse').sideNav({
+       closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+    }
+  );
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space
