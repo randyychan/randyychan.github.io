@@ -5371,9 +5371,9 @@ small {
   .card.small {
     height: 300px; }
     .card.small .card-image {
-      height: 150px; }
+      height: 230px; }
     .card.small .card-content {
-      height: 150px; }
+      height: 70px; }
   .card.medium {
     height: 400px; }
     .card.medium .card-image {
